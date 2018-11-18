@@ -58,9 +58,6 @@
 **Lokal**: dein PC
 **Origin**: in der Cloud
 
-![Gitkraken Origin Master](images/gikraken_origin_lokal.png)
+![Gitkraken Origin Master](images/gitkraken_origin_lokal.png)
 
 ---
-
-@snap[north-west span-35] @box[bg-green text-white demo-box-step-padding](1. Plan#Lorem ipsum dolor sit amet eiusmod) @snapend
-
