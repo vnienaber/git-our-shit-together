@@ -1,5 +1,12 @@
 # Git Workshop - Let's git our shit together!
 
+--- 
+
+### Installation und Accounterstellung
+- siehe `README` des Repositories
+- `www.github.com/friep/git-our-shit-together`
+
+
 ---
 
 ### Warum Git?
@@ -11,15 +18,28 @@
 - Masterarbeit_FINAL_FINAL.docx
 
 ---
+
 ![Help](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif)
+
 ---
 
 ### Version Control to the Rescue!
 - Beispiel: diese Präsentation. 
 
+---
+
+### Commit
+- Commit = Ein "Speicherpunkt" in Git. 
+- Commit kann aus mehreren Dateien bestehen
+- Commit Message 
+
+---
+
 ### Go back in time! 
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
+
+---
 
 ### Alles auf meinem Computer - aber was ist mit Tim?
 
@@ -29,8 +49,15 @@
 ![GitHub](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjM9JCu6d3eAhXNyIUKHdFZC7oQjRx6BAgBEAU&url=https%3A%2F%2Fgithub.com%2Fgithub&psig=AOvVaw2-5ZMEXW9PMp5XTU6psUTk&ust=1542626413165422)
 ![Azure Devops](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiI-6W76d3eAhWH4YUKHb0wAE4QjRx6BAgBEAU&url=https%3A%2F%2Ftwitter.com%2Fazuredevops&psig=AOvVaw0e3Ol9J2iPa_604sZllnFw&ust=1542626441302029)
 
+---
 
 ### Git Lokal und Git in der Cloud! 
 
 ... what? 
 
+**Lokal**: dein PC
+**Origin**: in der Cloud
+
+![Gitkraken Origin Master](images/gikraken_origin_lokal.png)
+
+---
