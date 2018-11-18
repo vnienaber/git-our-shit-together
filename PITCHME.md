@@ -56,8 +56,8 @@
 ... what? 
 
 **Lokal**: dein PC
-**Origin**: in der Cloud
+**Remote**: in der Cloud
 
-![Gitkraken Origin Master](images/gikraken_origin_lokal.png)
+![Gitkraken Lokal Remote](images/gikraken_origin_lokal.png)
 
 ---
