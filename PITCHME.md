@@ -28,26 +28,41 @@
 
 ---
 
+### Fork und Clone
+
+---
+
 ### Commit
 - Commit = Ein "Speicherpunkt" in Git. 
-- Commit kann aus mehreren Dateien bestehen
+- Commit kann aus mehreren Dateien bestehen 
 - Commit Message 
 
 ---
+
+### Git Workflow
+
+--- 
 
 ### Go back in time! 
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
 
+--- 
+
+### Demo - Go back in time 
+
 ---
+
+## Kollaboration 
+
+--- 
 
 ### Alles auf meinem Computer - aber was ist mit Tim?
 
-- Die Cloud! 
+- Die Cloud! z.B.
 
-![GitLab](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiA0bOc6d3eAhUOzYUKHWECBbwQjRx6BAgBEAU&url=https%3A%2F%2Ftwitter.com%2Fgitlab&psig=AOvVaw2SHZO6bluTowJuKL58llQg&ust=1542626377368814)
-![GitHub](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjM9JCu6d3eAhXNyIUKHdFZC7oQjRx6BAgBEAU&url=https%3A%2F%2Fgithub.com%2Fgithub&psig=AOvVaw2-5ZMEXW9PMp5XTU6psUTk&ust=1542626413165422)
-![Azure Devops](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiI-6W76d3eAhWH4YUKHb0wAE4QjRx6BAgBEAU&url=https%3A%2F%2Ftwitter.com%2Fazuredevops&psig=AOvVaw0e3Ol9J2iPa_604sZllnFw&ust=1542626441302029)
+@fa[fa-gitlab]
+@fa[fa-github]
 
 ---
 
@@ -55,9 +70,21 @@
 
 ... what? 
 
-**Lokal**: dein PC
-**Origin**: in der Cloud
+- **Lokal**: dein PC
+- **Origin**: in der Cloud
 
 ![Gitkraken Origin Master](images/gitkraken_origin_lokal.png)
 
 ---
+
+
+### Sync: Git Pull und Git Push
+
+![Push Pull](images/push_pull.png)
+
+---
+
+![Push the button](https://media.giphy.com/media/139lMwJ9ow7bKE/giphy.gif)
+
+
+### Git Workflow
