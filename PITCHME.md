@@ -28,10 +28,27 @@
 
 ---
 
+### Forke das Repository 
+@box[bg-blue text-white rounded](Repository#Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt.)
+
+"""
+Repository: Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt. 
+"""
+
+"""
+A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
+"""
+
+
+
+
 ### Commit
 - Commit = Ein "Speicherpunkt" in Git. 
-- Commit kann aus mehreren Dateien bestehen
-- Commit Message 
+- Commit kann aus mehreren Dateien bestehen.
+    - -> man "addet" Dateien, bevor man sie zusammen committet. 
+- Commit Message
+
+ADD - COMMIT 
 
 ---
 
@@ -51,13 +68,14 @@
 
 ---
 
-### Git Lokal und Git in der Cloud! 
+### Git Lokal und Git Remote 
 
 ... what? 
 
 **Lokal**: dein PC
-**Remote**: in der Cloud
+**Remote**: in der Cloud (GitHub, GitLab, ...)
 
-![Gitkraken Lokal Remote](images/gikraken_origin_lokal.png)
+
+![Gitkraken Lokal Remote](images/gikraken_remote_lokal.png)
 
 ---
