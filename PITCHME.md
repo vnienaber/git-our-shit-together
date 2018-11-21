@@ -9,6 +9,15 @@
 
 ---
 
+### Partner up!
+
+- Mona Lovalace Octocat
+![Mona](images/mona-lovalace.jpg)
+- Grace Hopper Octocat
+![Grace](images/gracehoppertocat.jpg)
+
+---
+
 ### Warum Git?
 
 - Masterarbeit.docx
@@ -28,7 +37,8 @@
 
 ---
 
-### Forke das Repository 
+### Hands On 1: Forke und Clone
+
 @box[bg-blue text-white rounded](Repository#Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt.)
 
 """
@@ -39,20 +49,11 @@ Repository: Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt.
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 """
 
-
+---
 
 
 ### Commit
 - Commit = Ein "Speicherpunkt" in Git. 
-- Commit kann aus mehreren Dateien bestehen.
-    - -> man "addet" Dateien, bevor man sie zusammen committet. 
-- Commit Message
-
-ADD - COMMIT 
-
----
-
-### Git Workflow
 
 --- 
 
@@ -60,22 +61,56 @@ ADD - COMMIT
 
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
 
---- 
-
-### Demo - Go back in time 
+---
+### Hands On 2 - Go back in time 
 
 ---
 
-## Kollaboration 
+### Commit
+- Commit hält **Veränderungen** gegenüber dem vorherigen Commit fest
+    - Änderungen von Dateien
+    - Neuerstellung von Dateien
+    - Löschung von Dateien
+    - Umbenennung von Dateien
+
+---
+
+### Hands On 3 - einen Commit machen 
+
+0. etwas verändern / löschen / hinzufügen / umbenennen
+1. von den "Unstaged Files" die Dateien **GIT ADD**en, die man in Git "speichern" möchte. Diese Dateien sind dann in der Staging Area. 
+2. eine (halbwegs) aussagekräftige Commit Message schreiben
+3. **GIT COMMIT** erstellt den Commit 
+
+---
+
+### Git quizzed!
+
+![Lokal](images/git_workflow_lokal_without_solution.png)
+
+---
+
+### Git quizzed!
+
+
+![Lokal](images/git_workflow_lokal_with_solution.png)
 
 --- 
+
+--- 
+
+### Noch ein Bild
+![Staging Area](images/staging.png)
+
+(Source: https://git-scm.com/about/staging-area)
+---
 
 ### Alles auf meinem Computer - aber was ist mit Tim?
 
 - Die Cloud! z.B.
 
-@fa[fa-gitlab]
-@fa[fa-github]
+@fa[gitlab]
+@fa[github]
 
 ---
 
@@ -95,11 +130,32 @@ ADD - COMMIT
 
 ### Sync: Git Pull und Git Push
 
+- Git Pull: neue Commits von GitHub downloaden
+- Git Push: lokal erstellte Commits nach GitHub hochladen
+
 ![Push Pull](images/push_pull.png)
 
 ---
 
 ![Push the button](https://media.giphy.com/media/139lMwJ9ow7bKE/giphy.gif)
 
+--- 
 
-### Git Workflow
+
+### Hands On 3 - Pull und Push
+
+
+---
+
+### Git quizzed!
+
+![Push Pull](images/git_workflow_with_github_without_solution.png)
+
+--- 
+
+
+### Git quizzed!
+
+![Push Pull](images/git_workflow_with_github_with_solution.png)
+
+---
