@@ -79,10 +79,14 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 ### Hands On 3 - einen Commit machen 
 
-0. etwas verändern / löschen / hinzufügen / umbenennen
-1. von den "Unstaged Files" die Dateien **GIT ADD**en, die man in Git "speichern" möchte. Diese Dateien sind dann in der Staging Area. 
-2. eine (halbwegs) aussagekräftige Commit Message schreiben
-3. **GIT COMMIT** erstellt den Commit 
+@ol
+
+-  etwas verändern / löschen / hinzufügen / umbenennen
+- von den "Unstaged Files" die Dateien **GIT ADD**en, die man in Git "speichern" möchte. Diese Dateien sind dann in der Staging Area. 
+- eine (halbwegs) aussagekräftige Commit Message schreiben
+- **GIT COMMIT** erstellt den Commit 
+
+@olend
 
 ---
 
