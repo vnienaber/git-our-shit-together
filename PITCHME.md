@@ -39,7 +39,9 @@
 
 ### Hands On 1: Forke und Clone
 
+@snap[north-west]
 @box[bg-blue text-white rounded](Repository#Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt.)
+@snapend
 
 """
 Repository: Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt. 
