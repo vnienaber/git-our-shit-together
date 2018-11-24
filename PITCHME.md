@@ -64,7 +64,16 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 ![Time Machine](https://media.giphy.com/media/Vqvr9BGv1vhDi/giphy.gif)
 
 ---
+
 ### Hands On 2 - Go back in time 
+
+@ol
+
+- "reset master to this commit"
+- spiele mit: "hard", "mixed", "soft"
+
+@olend
+
 
 ---
 
@@ -79,9 +88,11 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 ### Hands On 3 - einen Commit machen 
 
+Grace + Mona
+
 @ol
 
--  etwas verändern / löschen / hinzufügen / umbenennen
+-  etwas verändern / löschen / hinzufügen / umbenennen (an **unterschiedlichen** Dateien!)
 - von den "Unstaged Files" die Dateien **GIT ADD**en, die man in Git "speichern" möchte. Diese Dateien sind dann in der Staging Area. 
 - eine (halbwegs) aussagekräftige Commit Message schreiben
 - **GIT COMMIT** erstellt den Commit 
@@ -150,8 +161,16 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 ### Hands On 3 - Pull und Push
 
+@ol
 
----
+- Grace: Push 
+- Mona: Pull 
+- Mona: Push 
+- Grace: Pull
+
+@olend
+
+--- 
 
 ### Git quizzed!
 
@@ -165,3 +184,15 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 ![Push Pull](images/git_workflow_with_github_with_solution.png)
 
 ---
+
+pictures of error slides
+
+
+---
+
+
+
+---
+
+
+
