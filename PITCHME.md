@@ -37,20 +37,16 @@
 
 ---
 
-### Hands On 1: Forke und Clone
+### Hands On 1: Fork und Clone
 
 @snap[north-west]
 @box[bg-blue text-white rounded](Repository#Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt.)
 @snapend
 
-"""
-Repository: Ordner, der mit Git versioniert wird. Ein Git(Hub) Projekt. 
-"""
+@box[bg-blue text-white rounded](Repo(sitory)#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.")
+@box[bg-blue text-white rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.")
 
-"""
-A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
-"""
-
+sources: [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository), [GitHub Help](https://help.github.com/articles/fork-a-repo/)
 ---
 
 
@@ -69,9 +65,9 @@ A fork is a copy of a repository. Forking a repository allows you to freely expe
 
 @ol
 
-- "reset master to this commit"
-- spiele mit: "hard", "mixed", "soft"
-
+- `reset master to this commit`
+- spiele mit: `hard`, `mixed`, `soft`
+- `fast forward master to origin/master` (oberster commit)
 @olend
 
 
