@@ -37,7 +37,7 @@
 
 ---
 
-### Hands On 1: Fork und Clone
+### Fork und Clone
 
 
 @box[bg-blue text-white rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repositor)))
@@ -46,14 +46,102 @@
 
 ---
 
+### Hands On 1 - Fork und Clone
+ 
+#### Mona
+
+@ol
+
+- [https://github.com/friep/git-our-shit-together/](https://github.com/friep/git-our-shit-together/): Fork (oben rechts)
+- `https://github.com/{USERNAME}/git-our-shit-together` öffnet sich
+- unter Settings->Collaborators Grace hinzufügen
+
+@olend
+
+### Hands On 1 - Fork und Clone
+
+#### Mona & Grace
+
+![Git clone](images/gitclone.png)
+
+@ol
+
+- Gitkraken Clone Repo -> Clone with URL
+- Kopierten Link unter URL eintragen
+
+@olend
+
+
+---
+
+### Oh!
+
+![Git clone error](images/gitclone_auth_error.png)
+
+
+---
+
+### Oh! - Nicht-Gitkraken
+
+```
+Cloning into 'git-our-shit-together'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+---
+
+### SSH 
+
+@ul 
+
+- Download: 
+    - prinzipell jede*r @fa[lock-open] über `https` --> @fa[github]: @fa[check]
+    - `ssh`: vorherige Einrichtung ntowendig --> @fa[github]: @fa[question]
+- Upload: nur authentifizierte Personen @fa[lock]
+--> @fa[github]: @fa[question]
+
+@ulend
+
+---
+
+### Authentification - Passwort
+
+- bei jedem Push GitHub Passwort eingeben
+- beachte: clone `https://...` 
+
+![Git clone](images/gitclone_https.png)
+
+--- 
+
+### Authentification - SSH
+- public key, private key cryptography (siehe z.B. [Youtube](https://www.youtube.com/watch?v=AQDCe585Lnc))
+- nur einmal einrichten -> 
+- clone `ssh://...`
+
+---
+
+### Hands On 1.1: Gitkraken mit Github verbinden
+
+@ol
+
+- Gitkraken Profil (rechts oben)
+- Preferences->Authentification->GitHub
+- connect to GitHub
+- Generate SSH key and add to GitHub
+
+@olend
+
+---
 
 ### Commit
 
 @box[bg-blue text-white rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
 
 --> Commit = Ein "Speicherpunkt" in Git. 
-
-
 
 --- 
 
@@ -172,33 +260,6 @@ Grace + Mona
 @olend
 
 --- 
-
-### Oh!
-
-@ul 
-
-- Download: prinzipell jede*r @fa[lock-open] (Ausnahme: private Repos) 
---> @fa[github]: @fa[check]
-- Upload: nur authentifizierte Personen @fa[lock]
--> @fa[github]: @fa[question]
-
-@ulend
-
----
-
-### Authentification - Passwort
-
-- bei jedem Push GitHub Passwort eingeben
-- beachte: clone `https://...` 
-
---- 
-
-### Authentification - SSH
-- public key, private key cryptography (siehe z.B. [Youtube](https://www.youtube.com/watch?v=AQDCe585Lnc))
-- nur einmal einrichten -> Gitkraken
-- clone `ssh://...`
-
----
 
 ### Git quizzed!
 
