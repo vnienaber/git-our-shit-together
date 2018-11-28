@@ -173,6 +173,33 @@ Grace + Mona
 
 --- 
 
+### Oh!
+
+@ul 
+
+- Download: prinzipell jede*r @fa[lock-open] (Ausnahme: private Repos) 
+--> @fa[github]: @fa[check]
+- Upload: nur authentifizierte Personen @fa[lock]
+-> @fa[github]: @fa[question]
+
+@ulend
+
+---
+
+### Authentification - Passwort
+
+- bei jedem Push GitHub Passwort eingeben
+- beachte: clone `https://...` 
+
+--- 
+
+### Authentification - SSH
+- public key, private key cryptography (siehe z.B. [Youtube](https://www.youtube.com/watch?v=AQDCe585Lnc))
+- nur einmal einrichten -> Gitkraken
+- clone `ssh://...`
+
+---
+
 ### Git quizzed!
 
 ![Push Pull](images/git_workflow_with_github_without_solution.png)
