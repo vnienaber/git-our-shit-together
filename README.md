@@ -6,3 +6,7 @@
 
 # Präsentation Link
 - [https://gitpitch.com/friep/git-our-shit-together](https://gitpitch.com/friep/git-our-shit-together)
+
+
+# Ressourcen
+- [Getting started with Gitkraken for Windows](https://reganmusic.wordpress.com/2016/07/12/getting-started-with-gitkraken-for-windows/)
