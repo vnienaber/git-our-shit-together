@@ -40,16 +40,20 @@
 ### Hands On 1: Fork und Clone
 
 
-@box[bg-blue text-white rounded](Repo(sitory)#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed.")
+@box[bg-blue text-white rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repositor)))
 
-@box[bg-blue text-white rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.")
+@box[bg-blue text-white rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
 
-sources: [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/setting-up-a-repository), [GitHub Help](https://help.github.com/articles/fork-a-repo/)
 ---
 
 
 ### Commit
-- Commit = Ein "Speicherpunkt" in Git. 
+
+@box[bg-blue text-white rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
+
+--> Commit = Ein "Speicherpunkt" in Git. 
+
+
 
 --- 
 
@@ -72,11 +76,22 @@ sources: [Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/settin
 ---
 
 ### Commit
+
 - Commit hält **Veränderungen** gegenüber dem vorherigen Commit fest
     - Änderungen von Dateien
     - Neuerstellung von Dateien
     - Löschung von Dateien
     - Umbenennung von Dateien
+- ein Commit kann mehrere Änderungen beinhalten
+
+---
+
+### Adding und Staging Area 
+
+
+![Staging Area](images/staging.png)
+
+(Source: [https://git-scm.com/about/staging-area](https://git-scm.com/about/staging-area))
 
 ---
 
@@ -86,10 +101,10 @@ Grace + Mona
 
 @ol
 
--  etwas verändern / löschen / hinzufügen / umbenennen (an **unterschiedlichen** Dateien!)
-- von den "Unstaged Files" die Dateien **GIT ADD**en, die man in Git "speichern" möchte. Diese Dateien sind dann in der Staging Area. 
-- eine (halbwegs) aussagekräftige Commit Message schreiben
-- **GIT COMMIT** erstellt den Commit 
+-  Change stuff!
+- **GIT ADD** von den "Unstaged Files" Dateien **GIT ADD**en, die man in Git "speichern" möchte. 
+- (halbwegs) aussagekräftige Commit Message schreiben
+- **GIT COMMIT** 
 
 @olend
 
@@ -107,14 +122,6 @@ Grace + Mona
 ![Lokal](images/git_workflow_lokal_with_solution.png)
 
 --- 
-
---- 
-
-### Noch ein Bild
-![Staging Area](images/staging.png)
-
-(Source: https://git-scm.com/about/staging-area)
----
 
 ### Alles auf meinem Computer - aber was ist mit Tim?
 
