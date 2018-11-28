@@ -40,7 +40,7 @@
 ### Fork und Clone
 
 
-@box[bg-blue text-white rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repositor)))
+@box[bg-blue text-white rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
 
 @box[bg-blue text-white rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
 
@@ -57,6 +57,8 @@
 - unter Settings->Collaborators Grace hinzufügen
 
 @olend
+
+---
 
 ### Hands On 1 - Fork und Clone
 
