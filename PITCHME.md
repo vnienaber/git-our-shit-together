@@ -282,6 +282,10 @@ pictures of error slides
 
 ---
 
+![xccd](images/xkcd_comic.png)
+
+---
+
 
 
 ---
