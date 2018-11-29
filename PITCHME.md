@@ -12,7 +12,7 @@
 ### Partner up!
 
 - Mona Lovalace Octocat
-![Mona](images/mona-lovalace.jpg)
+![Mona](images/mona-lovelace.jpg)
 - Grace Hopper Octocat
 ![Grace](images/gracehoppertocat.jpg)
 
@@ -40,9 +40,9 @@
 ### Fork und Clone
 
 
-@box[bg-blue text-white rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
+@box[bg-blue text-black rounded](Repository#"A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed." ([Source](https://www.atlassian.com/git/tutorials/setting-up-a-repository)))
 
-@box[bg-blue text-white rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
+@box[bg-blue text-black rounded](Fork#"A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project." ([Source](https://help.github.com/articles/fork-a-repo/))
 
 ---
 
@@ -104,7 +104,7 @@ and the repository exists.
     - prinzipell jede*r @fa[lock-open] über `https` --> @fa[github]: @fa[check]
     - `ssh`: vorherige Einrichtung ntowendig --> @fa[github]: @fa[question]
 - Upload: nur authentifizierte Personen @fa[lock]
---> @fa[github]: @fa[question]
+- --> @fa[github]: @fa[question]
 
 @ulend
 
@@ -141,7 +141,7 @@ and the repository exists.
 
 ### Commit
 
-@box[bg-blue text-white rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
+@box[bg-blue text-black rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
 
 --> Commit = Ein "Speicherpunkt" in Git. 
 
@@ -160,6 +160,7 @@ and the repository exists.
 - `reset master to this commit`
 - spiele mit: `hard`, `mixed`, `soft`
 - `fast forward master to origin/master` (oberster commit)
+
 @olend
 
 
@@ -250,7 +251,7 @@ Grace + Mona
 --- 
 
 
-### Hands On 3 - Pull und Push
+### Hands On 4 - Pull und Push
 
 @ol
 
