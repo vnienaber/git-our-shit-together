@@ -358,12 +358,9 @@ picture of complicated gitkraken with a lot of branches
 
 ### Branches
 
-@box[bg-blue text-black rounded](A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. [Source](https://www.atlassian.com/git/tutorials/using-branches))
+@box[bg-blue text-black rounded](Branch#A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. [Source](https://www.atlassian.com/git/tutorials/using-branches))
 
----
-
-
-### Demo Branches
+@box[bg-blue text-black rounded](Checkout#The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. Think of it as a way to select which line of development you’re working on. [Source](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
 
 ---
 
@@ -372,9 +369,42 @@ picture of complicated gitkraken with a lot of branches
 @ul
 
 - "master" branch frei von unfertigem Code halten
-- unabhängige Entwicklung von Code
+- unabhängige Entwicklung von Code ("feature branches")
 - Experimente
 
 @ulend
 
 ---
+
+### Branches Workflow
+
+@ol
+
+- Branch erstellen
+- normal weiterarbeiten (pull-commit-push cycles)
+- (optional: merge andere branches in deinen branch um Updates zu bekommen)
+- merge Branch in master branch 
+
+@olend
+
+---
+
+### Merging branches
+
+- hängt davon ab, ob Master oder Branch changes brauchen (?)
+    - merge #1-add-branch-slides into master -> master wird geupdatet
+    - merge master into #1-add-branch-slides -> branch wird geupdatet
+
+
+---
+
+### Branches Fazit
+
+@ul
+
+- besonders nützlich bei Kollaboration
+- Entwicklung von Packages 
+- Relevanz für Datenprojekte (?)
+
+@ulend
+
