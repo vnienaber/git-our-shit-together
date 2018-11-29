@@ -287,9 +287,13 @@ pictures of error slides
 ---
 
 ### Git stash
+![xccd](images/xkcd_comic.png)
 
 @box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash))
 )
+---
+
+
 
 
 ---
