@@ -277,18 +277,138 @@ Grace + Mona
 
 ---
 
-pictures of error slides
+# When things go wrong...
 
+---
+
+pictures of error slides
 
 ---
 
 ![xccd](images/xkcd_comic.png)
 
----
-
-
 
 ---
 
+### Git stash
 
+@box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash))
+)
+
+---
+
+### Git stash bei merge conflicts
+
+@ol
+
+- git stash
+- git pull
+- apply stash 
+- solve merge conflicts 
+- (delete stash)
+
+@olend
+
+
+---
+
+
+# mit GitHub arbeiten
+
+
+---
+
+### Issues
+
+@ul
+
+- issues: Todos / Bugs / Ideen
+- jeder issue hat eine Nummer
+- #issueno in commit message verknüpft commit mit issue
+
+@ulend
+
+---
+
+### Hands On 4: Issue
+
+@ol
+
+- Mona: Issue erstellen: "Grace's LieblingsGIF fehlt"
+- Grace: füge der Präsentation eine neue Folie hinzu mit deinem Lieblingsgif (giphy -> copy link)
+- Grace: add + commit. verlinke issue Nummer in der commit message (#issueno)
+- Grace: push
+- Mona: Issue neu laden (STRG+R)
+
+@olend
+
+---
+
+# Branches
+
+---
+
+
+picture of complicated gitkraken with a lot of branches
+
+---
+
+![Come on](https://media.giphy.com/media/HfFccPJv7a9k4/giphy.gif)
+
+---
+
+
+### Branches
+
+@box[bg-blue text-black rounded](Branch#A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. [Source](https://www.atlassian.com/git/tutorials/using-branches))
+
+@box[bg-blue text-black rounded](Checkout#The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. Think of it as a way to select which line of development you’re working on. [Source](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
+
+---
+
+### Why branches?
+
+@ul
+
+- "master" branch frei von unfertigem Code halten
+- unabhängige Entwicklung von Code ("feature branches")
+- Experimente
+
+@ulend
+
+---
+
+### Branches Workflow
+
+@ol
+
+- Branch erstellen
+- normal weiterarbeiten (pull-commit-push cycles)
+- (optional: merge andere branches in deinen branch um Updates zu bekommen)
+- merge Branch in master branch 
+
+@olend
+
+---
+
+### Merging branches
+
+- Rechtsclick auf branch name / master
+- hängt davon ab, wer "weiter vorne" ist (?)
+    - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
+    - wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
+
+
+
+---
+
+### Branches Fazit
+
+@ul
+
+- besonders nützlich bei Kollaboration
+- Entwicklung von Packages 
+- Relevanz für Datenprojekte (?)
+
+@ulend
 
