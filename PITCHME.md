@@ -391,9 +391,10 @@ picture of complicated gitkraken with a lot of branches
 
 ### Merging branches
 
-- hängt davon ab, ob Master oder Branch changes brauchen (?)
-    - merge #1-add-branch-slides into master -> master wird geupdatet
-    - merge master into #1-add-branch-slides -> branch wird geupdatet
+- git checkout branch
+    - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
+- wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
+
 
 
 ---
