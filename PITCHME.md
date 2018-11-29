@@ -283,21 +283,19 @@ Grace + Mona
 
 pictures of error slides
 
+---
+
+![xccd](images/xkcd_comic.png)
+
 
 ---
 
 ### Git stash
-![xccd](images/xkcd_comic.png)
 
 @box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash))
 )
----
-
-
-
 
 ---
-
 
 ### Git stash bei merge conflicts
 
@@ -395,9 +393,10 @@ picture of complicated gitkraken with a lot of branches
 
 ### Merging branches
 
-- git checkout branch
+- Rechtsclick auf branch name / master
+- hängt davon ab, wer "weiter vorne" ist (?)
     - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
-- wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
+    - wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
 
 
 
