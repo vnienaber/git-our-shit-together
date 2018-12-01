@@ -242,6 +242,10 @@ Grace + Mona
 - Git Pull: neue Commits von GitHub downloaden
 - Git Push: lokal erstellte Commits nach GitHub hochladen
 
+---
+
+### Sync: Git Pull und Git Push
+
 ![Push Pull](images/push_pull.png)
 
 ---
@@ -281,7 +285,7 @@ Grace + Mona
 
 ---
 
-pictures of error slides
+![git google](images/giterrors.png)
 
 ---
 
@@ -290,10 +294,31 @@ pictures of error slides
 
 ---
 
+### When things go wrong...
+
+@ol
+
+- so lange nichts gepusht ist, alles (halbwegs) gut
+    - oft committen!
+- zur Not: Codestand sichern und neu clonen 
+
+@olend 
+
+
+--- 
+
 ### Git stash
 
 @box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash))
 )
+
+---
+
+### Git stash
+
+![stash](https://media.giphy.com/media/l0HlxJfVUKhtR8Jna/giphy.gif)
+
+--> put it away for now!
 
 ---
 
@@ -412,3 +437,6 @@ picture of complicated gitkraken with a lot of branches
 
 @ulend
 
+---
+
+### Das wars. 
