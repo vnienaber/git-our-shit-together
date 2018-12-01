@@ -157,7 +157,7 @@ and the repository exists.
 
 ### Commit history
 
-![Git commits](images/github_commits.png)
+![Git commits](images/gitkraken_commits.png)
 
 ---
 
