@@ -37,6 +37,11 @@
 
 ---
 
+
+# Daten runterladen - Fork und Clone
+
+---
+
 ### Fork und Clone
 
 
@@ -139,6 +144,9 @@ and the repository exists.
 
 ---
 
+# Daten speichern - Add und Commit 
+
+---
 ### Commit
 
 @box[bg-blue text-black rounded](Commit#"A commit is the Git equivalent of a "save".[...] Git committing is an operation that acts upon a collection of files and directories." ([Source](https://www.atlassian.com/git/tutorials/saving-changes))
@@ -146,6 +154,12 @@ and the repository exists.
 --> Commit = Ein "Speicherpunkt" in Git. 
 
 --- 
+
+### Commit history
+
+![Git commits](images/github_commits.png)
+
+---
 
 ### Go back in time! 
 
@@ -178,7 +192,6 @@ and the repository exists.
 ---
 
 ### Adding und Staging Area 
-
 
 ![Staging Area](images/staging.png)
 
@@ -214,7 +227,12 @@ Grace + Mona
 
 --- 
 
-### Alles auf meinem Computer - aber was ist mit Tim?
+# Daten syncen - Push und Pull
+
+---
+
+
+### Git  Hosting
 
 - Die Cloud! z.B.
 
@@ -230,9 +248,7 @@ Grace + Mona
 **Lokal**: dein PC
 **Remote**: in der Cloud (GitHub, GitLab, ...)
 
-![Gitkraken Origin Master](images/gitkraken_origin_lokal.png)
-
-![Gitkraken Lokal Remote](images/gikraken_remote_lokal.png)
+![Gitkraken Lokal Remote](images/gitkraken_remote_lokal.png)
 
 ---
 
@@ -309,8 +325,7 @@ Grace + Mona
 
 ### Git stash
 
-@box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash))
-)
+@box[bg-blue text-black rounded](Stash#"git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit". ([Source](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)))
 
 ---
 
@@ -337,6 +352,9 @@ Grace + Mona
 
 ---
 
+### Hands on 5: Merge conflicts
+
+---
 
 # mit GitHub arbeiten
 
@@ -374,7 +392,7 @@ Grace + Mona
 ---
 
 
-picture of complicated gitkraken with a lot of branches
+[picture of complicated gitkraken with a lot of branches]
 
 ---
 
@@ -386,6 +404,10 @@ picture of complicated gitkraken with a lot of branches
 ### Branches
 
 @box[bg-blue text-black rounded](Branch#A branch represents an independent line of development. Branches serve as an abstraction for the edit/stage/commit process. You can think of them as a way to request a brand new working directory, staging area, and project history. [Source](https://www.atlassian.com/git/tutorials/using-branches))
+
+---
+
+### Branches
 
 @box[bg-blue text-black rounded](Checkout#The git checkout command lets you navigate between the branches created by git branch. Checking out a branch updates the files in the working directory to match the version stored in that branch, and it tells Git to record all new commits on that branch. Think of it as a way to select which line of development you’re working on. [Source](https://www.atlassian.com/git/tutorials/using-branches/git-checkout))
 
@@ -439,4 +461,6 @@ picture of complicated gitkraken with a lot of branches
 
 ---
 
-### Das wars. 
+# Das wars. 
+
+### gerne den Tag über fragen! 
