@@ -1,6 +1,6 @@
 # Git Workshop - Let's git our shit together!
 
---- 
+---
 
 ### Installation und Accounterstellung
 - siehe `README` des Repositories
@@ -12,11 +12,15 @@
 ### Partner up!
 
 - Mona Lovalace Octocat
-![Mona](images/mona-lovelace.jpg)
+  ![Mona](images/mona-lovelace.jpg)
 - Grace Hopper Octocat
-![Grace](images/gracehoppertocat.jpg)
+  ![Grace](images/gracehoppertocat.jpg)
 
 ---
+
+## MERGE CONFLICT
+
+
 
 ### Warum Git?
 
@@ -52,7 +56,7 @@
 ---
 
 ### Hands On 1 - Fork und Clone
- 
+
 #### Mona
 
 @ol
@@ -78,13 +82,11 @@
 
 @olend
 
-
 ---
 
 ### Oh!
 
 ![Git clone error](images/gitclone_auth_error.png)
-
 
 ---
 
@@ -122,7 +124,7 @@ and the repository exists.
 
 ![Git clone](images/gitclone_https.png)
 
---- 
+---
 
 ### Authentification - SSH
 - public key, private key cryptography (siehe z.B. [Youtube](https://www.youtube.com/watch?v=AQDCe585Lnc))
@@ -153,7 +155,7 @@ and the repository exists.
 
 --> Commit = Ein "Speicherpunkt" in Git. 
 
---- 
+---
 
 ### Commit history
 
@@ -176,7 +178,6 @@ and the repository exists.
 - `fast forward master to origin/master` (oberster commit)
 
 @olend
-
 
 ---
 
@@ -206,9 +207,9 @@ Grace + Mona
 @ol
 
 -  Change stuff!
-- **GIT ADD** von den "Unstaged Files" Dateien **GIT ADD**en, die man in Git "speichern" möchte. 
-- (halbwegs) aussagekräftige Commit Message schreiben
-- **GIT COMMIT** 
+-  **GIT ADD** von den "Unstaged Files" Dateien **GIT ADD**en, die man in Git "speichern" möchte. 
+-  (halbwegs) aussagekräftige Commit Message schreiben
+-  **GIT COMMIT** 
 
 @olend
 
@@ -225,7 +226,7 @@ Grace + Mona
 
 ![Lokal](images/git_workflow_lokal_with_solution.png)
 
---- 
+---
 
 # Daten syncen - Push und Pull
 
@@ -268,7 +269,7 @@ Grace + Mona
 
 ![Push the button](https://media.giphy.com/media/139lMwJ9ow7bKE/giphy.gif)
 
---- 
+---
 
 
 ### Hands On 4 - Pull und Push
@@ -282,13 +283,13 @@ Grace + Mona
 
 @olend
 
---- 
+---
 
 ### Git quizzed!
 
 ![Push Pull](images/git_workflow_with_github_without_solution.png)
 
---- 
+---
 
 
 ### Git quizzed!
@@ -307,7 +308,6 @@ Grace + Mona
 
 ![xccd](images/xkcd_comic.png)
 
-
 ---
 
 ### When things go wrong...
@@ -320,8 +320,7 @@ Grace + Mona
 
 @olend 
 
-
---- 
+---
 
 ### Git stash
 
@@ -349,7 +348,6 @@ Grace + Mona
 
 @olend
 
-
 ---
 
 ### Hands on 5: Merge conflicts
@@ -357,7 +355,6 @@ Grace + Mona
 ---
 
 # mit GitHub arbeiten
-
 
 ---
 
@@ -444,7 +441,6 @@ Grace + Mona
 - hängt davon ab, wer "weiter vorne" ist (?)
     - wenn neue commits auf master: merge master into #1-add-branch-slides -> branch wird geupdatet
     - wenn neue commits auf branch: merge #1-add-branch-slides into master -> master wird geupdatet
-
 
 
 ---
