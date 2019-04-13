@@ -21,7 +21,7 @@
 
 ## MERGE CONFLICT
 
-
+adfjoieaff
 
 ### Warum Git?
 
